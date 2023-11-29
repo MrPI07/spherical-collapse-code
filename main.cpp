@@ -95,14 +95,14 @@ int main() {
     << setw(3) << "                 dnl_ta" 
     << setw(3) << "               y_vir"
     << setw(3) << "             Delta_vir"
-    /* << setw(3) << "        dndM(M, z)"
+    << setw(3) << "        dndM(M, z)"
     << setw(3) << "          dV/dz" 
     << setw(3) << "             N_bin1(z)"
     << setw(3) << "           N_bin2(z)"
     << setw(3) << "           N_bin3(z)" 
     << setw(3) << "          n_inf1(z)"
     << setw(3) << "         n_inf2(z)"
-    << setw(3) << "         n_inf3(z)"  */ 
+    << setw(3) << "         n_inf3(z)"  
     << endl;
 
     for(t0=log(1.0); t0>=log(1.0/(11.4)); t0-=0.01){
@@ -121,7 +121,7 @@ int main() {
         << setw(3) << "  " << Delta_vir 
         << endl;
 
-        /* datos2 << scientific << (1/exp(t0))-1
+        datos2 << scientific << (1/exp(t0))-1
         << setw(3) << "  " << dndM(M1014) 
         << setw(3) << "  " << evol_vol(t0) 
         << setw(3) << "  " << n_bin
@@ -130,7 +130,7 @@ int main() {
         << setw(3) << "  " << n_inf
         << setw(3) << "  " << n_inf2
         << setw(3) << "  " << n_inf3  
-        << endl; */
+        << endl; 
 
         cout << scientific << (1/exp(t0))-1 
         << setw(3) << "  " << dc 
@@ -138,14 +138,14 @@ int main() {
         << setw(3) << "  " << dnl_taA
         << setw(3) << "  " << y_vir
         << setw(3) << "  " << Delta_vir
-        /* << setw(3) << "  " << dndM(M1014)
+        << setw(3) << "  " << dndM(M1014)
         << setw(3) << "  " << evol_vol(t0) 
         << setw(3) << "  " << n_bin
         << setw(3) << "  " << n_bin2
         << setw(3) << "  " << n_bin3 
         << setw(3) << "  " << n_inf 
         << setw(3) << "  " << n_inf2
-        << setw(3) << "  " << n_inf3 */
+        << setw(3) << "  " << n_inf3
         << endl;
     
     }
