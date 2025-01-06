@@ -6,14 +6,14 @@ Este proyecto implementa un programa para calcular la evolución de las perturba
 
 - **Modelos cosmológicos:** Los modelos se definen en el archivo `lib/DE-models.cpp`.
   - **Modelos implementados:**
-    1. Modelos EdS.
-    2. Modelos LCDM.
-    3. Modelo CPL.
-    4. Modelo CPLF (CPL Phanton).
-    5. Modelo neDE: Energía oscura temprana.
-    5. Modelo 2EXP: doble exponecial.
-    7. Modelo con ecuación de estado dinámica (numérica) W. "Modelo Melissa"; devgf.
-    8. Modelo con ecuación de estado dinámica (numérica) W. "Non Abelian"; nonabelian.
+    - Modelos EdS.
+    - Modelos LCDM.
+    - Modelo CPL.
+    - Modelo CPLF (CPL Phanton).
+    - Modelo neDE: Energía oscura temprana.
+    - Modelo 2EXP: doble exponecial.
+    - Modelo con ecuación de estado dinámica (numérica) W. "Modelo Melissa"; devgf.
+    - Modelo con ecuación de estado dinámica (numérica) W. "Non Abelian"; nonabelian.
     - Modelo con ecuación de estado dinámica (numérica) W. "Non Abelian"; twoform.
 - **Ecuaciones del modelo SCM:** Implementadas en `lib/scm.cpp`.
 - **Selección de modelos:** Configurable mediante `modelSelect.cpp`.
