@@ -5,8 +5,8 @@ Este proyecto implementa un programa para calcular la evolución de las perturba
 ## Características principales
 
 - **Modelos cosmológicos:** Los modelos se definen en el archivo `lib/DE-models.cpp`.
--- Modelos implementados:
-    Modelos EdS.
+-- **Modelos implementados:**
+    *Modelos EdS.*
     Modelos LCDM.
     Modelo CPL.
     MOdelo CPLF (CPL Phanton).
@@ -60,6 +60,8 @@ SCM-v1.55/
 3. Los resultados se guardarán en la carpeta `output/` para su análisis.
 
 ## Limpiar archivos
+
+Para limpiar los archivos de compilación usar:
 
     ```bash
     make clean
